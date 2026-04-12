@@ -1,0 +1,33 @@
+﻿<Window x:Class="TravianBestUnitComp.FillAnimalsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TravianBestUnitComp"
+        mc:Ignorable="d"
+        Title="FillAnimalsWindow" Height="150" Width="445">
+    <Grid>
+        <Label x:Name="lblRat" Content="Rat" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="44" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lblSpider" Content="Spider" HorizontalAlignment="Left" Margin="50,10,0,0" VerticalAlignment="Top" Width="44" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lblSnake" Content="Snake" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="44" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lblBat" Content="Bat" HorizontalAlignment="Left" Margin="130,10,0,0" VerticalAlignment="Top" Width="44" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lblBoar" Content="Boar" HorizontalAlignment="Left" Margin="170,10,0,0" VerticalAlignment="Top" Width="44" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lblWolf" Content="Wolf" HorizontalAlignment="Left" Margin="210,10,0,0" VerticalAlignment="Top" Width="44" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lblBear" Content="Bear" HorizontalAlignment="Left" Margin="250,10,0,0" VerticalAlignment="Top" Width="44" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lblCroc" Content="Croc" HorizontalAlignment="Left" Margin="290,10,0,0" VerticalAlignment="Top" Width="44" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lblTiger" Content="Tiger" HorizontalAlignment="Left" Margin="330,10,0,0" VerticalAlignment="Top" Width="44" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lblElephant" Content="Elephant" HorizontalAlignment="Left" Margin="370,10,0,0" VerticalAlignment="Top" Width="60" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="txtRat" HorizontalAlignment="Left" Margin="16,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="32"/>
+        <TextBox x:Name="txtSpider" HorizontalAlignment="Left" Margin="56,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="32"/>
+        <TextBox x:Name="txtSnake" HorizontalAlignment="Left" Margin="96,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="32"/>
+        <TextBox x:Name="txtBat" HorizontalAlignment="Left" Margin="136,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="32"/>
+        <TextBox x:Name="txtBoar" HorizontalAlignment="Left" Margin="176,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="32"/>
+        <TextBox x:Name="txtWolf" HorizontalAlignment="Left" Margin="216,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="32"/>
+        <TextBox x:Name="txtBear" HorizontalAlignment="Left" Margin="256,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="32"/>
+        <TextBox x:Name="txtCroc" HorizontalAlignment="Left" Margin="296,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="32"/>
+        <TextBox x:Name="txtTiger" HorizontalAlignment="Left" Margin="336,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="32"/>
+        <TextBox x:Name="txtElephant" HorizontalAlignment="Left" Margin="384,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="32"/>
+        <Button x:Name="btnConfirm" Content="Confirm" HorizontalAlignment="Left" Margin="201,67,0,0" VerticalAlignment="Top" Width="62" Click="btnConfirm_Click"/>
+
+    </Grid>
+</Window>
