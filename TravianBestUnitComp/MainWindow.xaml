@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TravianBestUnitComp"
         mc:Ignorable="d"
-        Title="Best Unit Composition" Height="254" Width="400">
+        Title="Best Unit Composition" Height="280" Width="400">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="btnCalc" Content="Calculate" HorizontalAlignment="Center" Margin="0,180,0,0" VerticalAlignment="Top" Width="114" Grid.ColumnSpan="2" RenderTransformOrigin="0.788,0.453" HorizontalContentAlignment="Center" Grid.Column="1" Click="btnCalc_Click"/>
+        <Button x:Name="btnCalc" Content="Calculate" HorizontalAlignment="Center" Margin="0,206,0,0" VerticalAlignment="Top" Width="114" Grid.ColumnSpan="2" RenderTransformOrigin="0.788,0.453" HorizontalContentAlignment="Center" Grid.Column="1" Click="btnCalc_Click"/>
         <TextBox x:Name="txtInfDef" HorizontalAlignment="Left" Height="22" Margin="115,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="79" Grid.ColumnSpan="2"/>
         <Label x:Name="lblInfDef" Content="Infantry Defense" HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Grid.ColumnSpan="2"/>
         <TextBox x:Name="txtCavDef" HorizontalAlignment="Left" Height="22" Margin="115,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="79" Grid.ColumnSpan="2"/>
@@ -26,6 +26,7 @@
         <TextBox x:Name="txtCavOff1" HorizontalAlignment="Left" Height="22" Margin="204,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Grid.ColumnSpan="2"/>
         <TextBox x:Name="txtCavOff1Cost" HorizontalAlignment="Left" Height="22" Margin="299,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Grid.ColumnSpan="2"/>
         <TextBox x:Name="txtCavOff2Units" HorizontalAlignment="Left" Height="22" Margin="115,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="31" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="txtBrew" HorizontalAlignment="Left" Height="22" Margin="115,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="31" Grid.ColumnSpan="2"/>
         <TextBox x:Name="txtCavOff2" HorizontalAlignment="Left" Height="22" Margin="204,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Grid.ColumnSpan="2"/>
         <TextBox x:Name="txtCavOff2Cost" HorizontalAlignment="Left" Height="22" Margin="299,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Grid.ColumnSpan="2"/>
         <Label x:Name="lblInfOff2" Content="Infantry Units 2" HorizontalAlignment="Left" Height="30" Margin="10,91,0,0" VerticalAlignment="Top" Width="100" Grid.ColumnSpan="2"/>
@@ -36,6 +37,7 @@
         <Label x:Name="lblCavOff2Tot" Content="w/ Power" HorizontalAlignment="Left" Height="30" Margin="146,145,0,0" VerticalAlignment="Top" Width="67" Grid.ColumnSpan="2"/>
         <Label x:Name="lblCavOff1" Content="Cavalry Units 1" HorizontalAlignment="Left" Height="30" Margin="10,118,0,0" VerticalAlignment="Top" Width="100" Grid.ColumnSpan="2"/>
         <Label x:Name="lblCavOff2" Content="Cavalry Units 2" HorizontalAlignment="Left" Height="30" Margin="10,144,0,0" VerticalAlignment="Top" Width="100" Grid.ColumnSpan="2"/>
+        <Label x:Name="lblBrew" Content="Brewery" HorizontalAlignment="Left" Height="30" Margin="10,170,0,0" VerticalAlignment="Top" Width="100" Grid.ColumnSpan="2"/>
         <Label x:Name="lblInfOff1Cost" Content="w/ Cost" HorizontalAlignment="Left" Height="30" Margin="246,63,0,0" VerticalAlignment="Top" Width="53" Grid.Column="1"/>
         <Label x:Name="lblInfOff2Cost" Content="w/ Cost" HorizontalAlignment="Left" Height="30" Margin="246,90,0,0" VerticalAlignment="Top" Width="53" Grid.Column="1"/>
         <Label x:Name="lblCavOff1Cost" Content="w/ Cost" HorizontalAlignment="Left" Height="30" Margin="246,118,0,0" VerticalAlignment="Top" Width="53" Grid.Column="1"/>

@@ -48,6 +48,8 @@ namespace TravianBestUnitComp
             int cavOff2 = ParseTextBoxValue(txtCavOff2);
             int cavOff2Cost = ParseTextBoxValue(txtCavOff2Cost);
 
+            int brewery = ParseTextBoxValue(txtBrew);
+
             string res = "";
 
             int totalUnits = infOff1Units + infOff2Units + cavOff1Units + cavOff2Units;
@@ -58,6 +60,8 @@ namespace TravianBestUnitComp
                 if (msgRes == MessageBoxResult.OK)
                     return;
             }
+
+            double breweryCoef = 1 + brewery / 100.0;
 
             List<Dictionary<string, int>> lossesList = new List<Dictionary<string, int>>();
 
@@ -70,8 +74,8 @@ namespace TravianBestUnitComp
                     {
                         for (int l = 0; l <= cavOff2Units; l++)
                         {
-                            double totalInfOff = infOff1 * i + infOff2 * j;
-                            double totalCavOff = cavOff1 * k + cavOff2 * l;
+                            double totalInfOff = (infOff1 * i + infOff2 * j) * breweryCoef;
+                            double totalCavOff = (cavOff1 * k + cavOff2 * l) * breweryCoef;
                             double totalOff = totalInfOff + totalCavOff;
                             if (totalOff == 0) break;
                             double infOffRatio = totalInfOff / totalOff;
